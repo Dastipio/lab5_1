@@ -6,6 +6,7 @@ import static org.mockito.Mockito.verify;
 import org.junit.Test;
 
 public class RadarTest {
+
 	@Test
 	public void launchPatriotOnceWhenNoticesAScudMissle() {
 		PatriotBattery batteryMock = mock(PatriotBattery.class);
